@@ -1,0 +1,9 @@
+let pozwala zmieniac i przypisywac inne typy
+let test = 0
+test = []
+
+consta mozna tylko modyfikowac, nie mozna przypisac nowych wartosci po znaku =
+
+const test2 = ['']
+const test3 = test2 // przypisanie referencji - dziala w 2 strony. Jesli damy test3.push() test2 tez otrzyma wartosc
+
